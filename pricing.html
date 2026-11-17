@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Élané | Pricing</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+body {
+    font-family:'Montserrat',sans-serif;
+    background:#faf6f0;
+    color:#59453a;
+}
+
+h1,h2,h3,h4,.logo {
+    font-family:'Cormorant Garamond',serif;
+}
+
+.navbar {
+    background:#faf6f0;
+    padding:18px 0;
+    border-bottom:1px solid #eaded2;
+}
+
+.logo {
+    font-size:32px;
+    letter-spacing:2px;
+    color:#7b5b48 !important;
+}
+
+.nav-link {
+    color:#705849 !important;
+    margin-left:22px;
+    font-size:14px;
+}
+
+.nav-link:hover {
+    color:#a47c57 !important;
+}
+
+.page-title {
+    background:
+    linear-gradient(rgba(90,65,50,.25),rgba(90,65,50,.25)),
+    url("https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1800&q=85");
+
+    background-size:cover;
+    background-position:center;
+
+    padding:110px 0;
+    text-align:center;
+}
+
+.page-title h1 {
+    color:white;
+    font-size:65px;
+}
+
+.page-title p {
+    color:white;
+}
+
+.section {
+    padding:90px 0;
+}
+
+.section-label {
+    color:#a47c57;
+    letter-spacing:3px;
+    font-size:12px;
+    font-weight:600;
+}
+
+.section-title {
+    color:#654b3c;
+    font-size:48px;
+}
+
+.price-card {
+    background:#fffdf9;
+    border:1px solid #eaded2;
+    padding:45px 30px;
+    text-align:center;
+    height:100%;
+    transition:.3s;
+}
+
+.price-card:hover {
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(100,70,50,.12);
+}
+
+.price-card h3 {
+    font-size:32px;
+    color:#684e3e;
+}
+
+.amount {
+    color:#a47c57;
+    font-size:42px;
+    font-weight:600;
+    margin:15px 0;
+}
+
+.price-card ul {
+    list-style:none;
+    padding:0;
+    color:#806c5f;
+    line-height:2.2;
+    font-size:14px;
+}
+
+.btn-gold {
+    background:#9d7657;
+    color:white;
+    border:none;
+    padding:12px 30px;
+}
+
+.btn-gold:hover {
+    background:#795844;
+    color:white;
+}
+
+.featured {
+    background:#eee1d5;
+}
+
+footer {
+    background:#e5d4c4;
+    padding:30px;
+    text-align:center;
+}
+
+footer h3 {
+    color:#654b3c;
+    font-size:30px;
+}
+
+@media(max-width:768px) {
+
+    .page-title h1 {
+        font-size:48px;
+    }
+
+    .section {
+        padding:60px 0;
+    }
+
+    .nav-link {
+        margin-left:0;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg">
+
+<div class="container">
+
+<a class="navbar-brand logo" href="index.html">ÉLANÉ</a>
+
+<button class="navbar-toggler"
+data-bs-toggle="collapse"
+data-bs-target="#menu">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li><a class="nav-link" href="index.html">HOME</a></li>
+<li><a class="nav-link" href="about.html">ABOUT</a></li>
+<li><a class="nav-link" href="services.html">SERVICES</a></li>
+<li><a class="nav-link" href="pricing.html">PRICING</a></li>
+<li><a class="nav-link" href="gallery.html">GALLERY</a></li>
+<li><a class="nav-link" href="contact.html">CONTACT</a></li>
+
+</ul>
+
+</div>
+</div>
+</nav>
+
+
+<section class="page-title">
+
+<div class="container">
+
+<h1>Pricing</h1>
+
+<p>Simple, transparent and thoughtfully priced</p>
+
+</div>
+
+</section>
+
+
+<section class="section">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+<div class="section-label">
+OUR PACKAGES
+</div>
+
+<h2 class="section-title">
+Choose Your Experience
+</h2>
+
+</div>
+
+
+<div class="row g-4">
+
+
+<div class="col-md-4">
+
+<div class="price-card">
+
+<h3>Essential</h3>
+
+<div class="amount">₹999</div>
+
+<ul>
+
+<li>✓ Hair Styling</li>
+<li>✓ Basic Facial</li>
+<li>✓ Manicure</li>
+<li>✓ Hair Wash</li>
+
+</ul>
+
+<button class="btn btn-gold">
+CHOOSE PACKAGE
+</button>
+
+</div>
+
+</div>
+
+
+<div class="col-md-4">
+
+<div class="price-card featured">
+
+<h3>Signature</h3>
+
+<div class="amount">₹1,999</div>
+
+<ul>
+
+<li>✓ Premium Hair Styling</li>
+<li>✓ Premium Facial</li>
+<li>✓ Hair Spa</li>
+<li>✓ Manicure</li>
+
+</ul>
+
+<button class="btn btn-gold">
+CHOOSE PACKAGE
+</button>
+
+</div>
+
+</div>
+
+
+<div class="col-md-4">
+
+<div class="price-card">
+
+<h3>Élané Luxe</h3>
+
+<div class="amount">₹3,999</div>
+
+<ul>
+
+<li>✓ Luxury Hair Styling</li>
+<li>✓ Luxury Facial</li>
+<li>✓ Hair Spa</li>
+<li>✓ Premium Makeup</li>
+
+</ul>
+
+<button class="btn btn-gold">
+CHOOSE PACKAGE
+</button>
+
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<h3>ÉLANÉ</h3>
+
+<p>Beauty • Style • Elegance</p>
+
+<p>© 2026 Élané Beauty Studio</p>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
